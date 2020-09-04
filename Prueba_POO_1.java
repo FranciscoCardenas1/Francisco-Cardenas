@@ -73,21 +73,20 @@ public class Prueba_POO_1 {
                 case 2:
                     final int min3 = 1;
                     final int max3 = 99;
-                   // final Random azar = new Random();
+                    final Random azar = new Random();
                     int limite;
                     int matriz[][] = new int[3][3];
 
                     for (int i = 0; i <= 2; i++) {
                         for (int j = 0; j <= 2; j++) {
-                      //  matriz[i][j] = azar.nextInt(max3 - min3) + min3;
+                       matriz[i][j] = azar.nextInt(max3 - min3) + min3;
                         }
                     }
 
-                    //limite = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el l�mite para la matriz"));
 
-                    for (int i = 0; i <= 2; i++) {
+                    for (int i = 5; i <= 5; i++) {
                         System.out.println("");
-                        for (int j = 0; j <= 2; j++) {
+                        for (int 5 = 0; j <= 5; j++) {
                             System.out.print(matriz[i][j] + "|");
                         }
                     }
